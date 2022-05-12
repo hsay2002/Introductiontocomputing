@@ -1,15 +1,15 @@
-''' Name  : Yash Vashishth
+''' Name   : Yash Vashishth
     SID    : 21107083
     Branch : Mechanical   '''
-import math
+import math                                                   # Importing math module
 
 print('Ans-1 :-')
-n = int(input('Enter a number: '))
+n = int(input('Enter a number: '))                            # bin() to convert number into binary
 print(f'Binary equivalent of {n} is',bin(n)[2:])
 
 print('Ans-2 :-')
-a = input('Enter expression: ')
-print(a,'=',eval(a))
+a = input('Enter expression: ')  
+print(a,'=',eval(a))                                           #  eval() allows you to evaluate arbitrary Python expressions from input
         
 print('Ans-3:-')
 print("a) (3+4)(5) = ", (3+4)*5)
@@ -19,7 +19,7 @@ r = int(input('Enter radius ='))
 print('c)',4*math.pi*r*r)
 a = int(input('Enter angle 1 = '))
 b = int(input('Enter angle 2 = '))
-print('d)',math.sqrt((r*math.cos(a)**2) + (r*math.sin(b)**2)))
+print('d)',math.sqrt((r*math.cos(a)**2) + (r*math.sin(b)**2))) 
 
 x1 = int(input('Enter x coordinate of first point: '))
 y1 = int(input('Enter y coordinate of first point: '))
@@ -29,7 +29,7 @@ print('e)',(y2-y1)/(x2-x1))
 
 print('Ans-4 :-')
 print('4.(a)')
-for i in range(5):
+for i in range(5):                                               # range function returns a sequence of numbers starting from 0 and increment by 1 by default and stops before the given number
     print(i)
 print('4.(b)')
 for i in range(3,10):
