@@ -1,3 +1,11 @@
+'''
+Yash Vashishth
+21107083
+Mechanical
+'''
+
+
+
 #Q1
 def divisors(num):
     sum=0
@@ -82,9 +90,9 @@ def student_data(student_id, **kwargs):
         print(f"Student Class:  {kwargs['student_class']}")
 
 
-student_data(student_id='21107094', student_name='Pulkit Dembla')
+student_data(student_id='21107083', student_name='Yash Vashishth')
 
-student_data(student_id='21107094', student_name='Pulkit Dembla', student_class='XIII')
+student_data(student_id='21107083', student_name='Yash Vashishth', student_class='XIII')
 
 
 
